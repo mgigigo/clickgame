@@ -117,6 +117,7 @@
     }
     else{
         //中斷計時器並清空設定
+        //Michael add som commit
         [theTimer invalidate];
         theTimer = nil;
         [self createFrame];
